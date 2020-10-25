@@ -1,0 +1,6 @@
+$ docker run --name mysql-latest -p 3306:3306 -e MYSQL_ROOT_PASSWORD=@Hulk0427 -d mysql:5.7
+
+mysql:
+$ mysql -u root -p
+$ CREATE USER 'monitorsystem'@'localhost' IDENTIFIED BY '1qaz@WSXC';
+$ GRANT ALL PRIVILEGES ON MonitorSystem.* TO 'monitorsystem'@'localhost';
