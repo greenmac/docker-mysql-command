@@ -8,5 +8,5 @@ $ CREATE DATABASE MonitorSystem;
 $ CREATE USER 'monitorsystem'@'localhost' IDENTIFIED BY '1qaz@WSXC';
 $ GRANT ALL PRIVILEGES ON MonitorSystem.* TO 'monitorsystem'@'localhost';
 $ use mysql;
-$ update user set host="%%" where user='monitorsystem';
+$ update user set host="%" where user='monitorsystem';
 $ flush privileges;
